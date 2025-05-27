@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #1fe080;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.cabecalho h2 {
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.cabecalho nav a button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #e91e63;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cabecalho nav a button:hover {
+    background-color: #c2185b;
+}
+
+/* Sessão de apresentação */
+.apresentacao {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background-color: #fff0f5;
+}
+
+.apresentacao h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e91e63;
+}
+
+.botao-saiba-mais {
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao-saiba-mais:hover {
+    background-color: #c2185b;
+}
+
+/* Chamada para cadastro */
+.chamada-cadastro h2 {
+    font-size: 24px;
+    color: #d81b60;
+    margin-bottom: 20px;
+}
+
+.chamada-cadastro p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #777;
+    font-size: 14px;
+    margin-top: 40px;
+}

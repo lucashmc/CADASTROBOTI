@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro - Boticário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h2>Boticário</h2>
+        <nav>
+            <a href="index.html"><button>Início</button></a>
+            <a href="informacao.html"><button>Sobre</button></a>
+            <button disabled>Novo Cadastro</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Cadastro de Revendedor(a)</h1>
+        <form action="#" method="post" class="formulario">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(DDD) 00000-0000" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="00000-000" required>
+
+            <button type="submit" class="botao-enviar">Enviar Cadastro</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Boticário. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
